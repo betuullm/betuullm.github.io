@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #f381b1, #ac0062);
+    background: linear-gradient(135deg, #c481f3, #7b00ac);
     color: #fff;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background: linear-gradient(135deg,  #f381b1, #ac0062);
+    background: linear-gradient(135deg,  #c481f3, #7b00ac);
     color: #fff;
     padding: 20px 0;
     text-align: center;
