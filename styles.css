@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #E95793, #DA0C81);
+    background: linear-gradient(135deg, #f381b1, #ac0062);
     color: #fff;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ nav ul li a:hover {
 .section h2 {
     margin-bottom: 30px;
     font-size: 2.5em;
-    color: #01204E;
+    color: #ac0062;
 }
 
 .col-md-8 p {
@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 .col-md-8 strong {
-    color: #01204E;
+    color: #ac0062;
 }
 
 .portfolio-grid {
@@ -115,7 +115,7 @@ nav ul li a:hover {
 .portfolio-item h3 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #01204E;
+    color: #ac0062;
 }
 
 .portfolio-item p {
@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background: linear-gradient(135deg, #0063B2, #01204E);
+    background: linear-gradient(135deg,  #f381b1, #ac0062);
     color: #fff;
     padding: 20px 0;
     text-align: center;
