@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function getImageForRepo(repoName) {
     const imageMap = {
-        "default": "https://www.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_25001216.htm#fromView=search&page=1&position=3&uuid=d77a30f1-8846-4cf0-8348-2b04c4e8d8f0",
+        "default": "./images/7040859.jpg",
     };
     return imageMap.hasOwnProperty(repoName) ? imageMap[repoName] : "./images/default.jpg";
 }
