@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function getImageForRepo(repoName) {
     const imageMap = {
-        "default": "./images/7040859.jpg",
+        "default": "./images/default.jpg",
     };
     return imageMap.hasOwnProperty(repoName) ? imageMap[repoName] : "./images/default.jpg";
 }
