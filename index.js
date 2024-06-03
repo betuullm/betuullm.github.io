@@ -75,7 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function getImageForRepo(repoName) {
     const imageMap = {
-        "default": "./images/default.jpg",
+        "Flutter-Visit-Trabzon": "./images/SocialApp.jpg",
+        "YemekTarifiSite": "./images/BlogProject.jpg",
+
     };
     return imageMap.hasOwnProperty(repoName) ? imageMap[repoName] : "./images/default.jpg";
 }
