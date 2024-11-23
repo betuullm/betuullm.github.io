@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const itemsPerPage = 6; 
     let currentPage = 1; 
 
-    fetch("https://api.github.com/users/FerhatAkalan/repos")
+    fetch("https://api.github.com/users/betuullm/repos")
         .then(response => response.json())
         .then(data => {
             const filteredRepos = data.filter(repo => 
-                !repo.name.includes("FerhatAkalan") && !repo.name.includes("FerhatAkalan.github.io")
+                !repo.name.includes("betuullm") && !repo.name.includes("betuullm.github.io")
             );
             const promises = filteredRepos.map(repo => {
-                return fetch(`https://api.github.com/repos/FerhatAkalan/${repo.name}/commits?per_page=1`)
+                return fetch(`https://api.github.com/repos/betuullm/${repo.name}/commits?per_page=1`)
                         .then(response => response.json())
                         .then(commits => {
                             if (commits.length > 0) {
@@ -75,12 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function getImageForRepo(repoName) {
     const imageMap = {
-        "GulgezginGame": "./images/blue/GameApp.jpg",
-        "Social-Media-App-Project": "./images/blue/SocialApp.jpg",
-        "School-Management-Project": "./images/blue/SchoolApp.jpg",
-        "BlogProject": "./images/blue/BlogApp.jpg",
-        "TensorflowCarAnalysis": "./images/blue/MachineLearning.jpg",
-        "SpringAppProject": "./images/blue/SpringApp.jpg",
+        "default": "./images/default.jpg",
+        "Flutter-Visit-Trabzon": "./images/SocialApp.jpg",
+        "YemekTarifiSite": "./images/BlogProject.jpg",
     };
     return imageMap.hasOwnProperty(repoName) ? imageMap[repoName] : "./images/default.jpg";
 }
