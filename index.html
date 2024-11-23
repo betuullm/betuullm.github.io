@@ -2,48 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betül Mumcu Portföy</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Betül Mumcu Portfolio</title>
+    <meta name="description" content="Betül Mumcu'nun resmi portföy sitesi. Bilgisayar mühendisliği, yazılım geliştirme ve projeleri hakkında bilgi edinin.">
+    <meta name="keywords" content="Betül Mumcu, Bilgisayar Mühendisi, Yazılım Geliştirici, Projeler, Teknolojiler, Deneyimler, Eğitim">
+    <meta name="author" content="Betül Mumcu">
+    <meta name="google-site-verification" content="9Vo63qzADK5DasYw-TrrOKLlWSXVCSNXu7BARyr559U" />
     <link rel="icon" href="./images/github.svg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
     <link href="./fontawesome-free-6.5.2-web/css/all.min.css" rel="stylesheet">
     <link href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="py-4">
-        <div class="container">
-            <h1 class="text-white text-center">Betül Mumcu</h1>
-            <br>
-            <h4 class="text-white text-center">Computer Engineer & Junior Data Scientist</h4>
-            <br>    
-            <nav class="text-center">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item"><a class="nav-link text-white" href="#about">About me</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#technologies">Technologies</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#experience">Experiences</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#education">Education</a></li>
+<header class="py-3">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <!-- Logo/Name section -->
+            <div class="header-brand">
+                <a href="#" class="text-decoration-none">
+                    <span class="logo-text">
+                        <span class="bracket">&lt;</span>Betül Mumcu<span class="bracket">&gt;</span>
+                    </span>
+                </a>
+            </div>
+            <!-- Hamburger Menu Button -->
+            <button class="navbar-toggler d-lg-none" type="button">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <!-- Navigation -->
+            <nav id="navbarNav" class="d-none d-lg-block">
+                <ul class="nav align-items-center">
+                    <li class="nav-item developer-title">
+                        <span>Computer Engineer</span>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#technologies">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://medium.com/@betuullm01" target="_blank">Blog</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </div>
+</header>
     <section id="about" class="section">
         <div class="container">
-            <h2 class="text-center">About me</h2>
+            <h2 class="section-title mt-5">About me</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p>Hi, I am Betül, a 4th year student at Giresun University focusing on my career in software. I constantly improve myself in the field of software development and actively apply the experiences I have gained in this field and share my projects on my GitHub account.</p>
-                    <p>My past internship experiences helped me improve my knowledge and skills in the software field. During this process, I had the opportunity to work on real-world projects and shared these projects with a wider audience by sharing them on my GitHub account. If you would like to contact me for job or internship postings, you can contact me via e-mail.</p>
-                    <p>🔭 I’m currently working on <strong>Smart Driver Tracking and Driving Analysis Reporting Systems</strong></p>
+                    <p>Hello, my name is <strong>Betül Mumcu</strong>
                     <p>🌱 I’m currently learning <strong>Machine Learning</strong></p>
-                    <p>📫 How to reach me <strong>betuullm01@gmail.com</strong></p>
+                    <p>📫 How to reach me <strong>betuullmm@gmail.com</strong></p>
                 </div>
             </div>
         </div>
     </section>
     <section id="projects" class="section bg-light">
         <div class="container">
-            <h2 class="text-center">My Github Public Projects</h2>
+            <h2 class="section-title text-center">My Github Public Projects</h2>
             <div class="portfolio-grid row justify-content-center">
                 <!-- GitHub projeleri buraya gelecek -->
             </div>
@@ -54,7 +72,7 @@
     </section>
     <section id="technologies" class="section">
         <div class="container">
-            <h2 class="text-center">Languages, Frameworks, and Tools</h2>
+            <h2 class="section-title text-center">Languages, Frameworks, and Tools</h2>
             <div class="row justify-content-center">
                 <div class="languages">
                     <div class="technologies-grid">
@@ -123,23 +141,54 @@
             </div>
         </div>
     </section>
-    <section id="experience" class="section bg-light">
+    <section id="achievements" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Experiences</h2>
-            <div class="experience">
-                <div class="d-flex justify-content-center align-items-center m-auto">
-                    <div class="technology-item">
-                        <a href="https://www.linkedin.com/in/betulmumcu" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="linkedin" width="50" height="50"/>
-                        </a>
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card col-lg-8 mx-auto">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <div class="education-logo mb-3 mb-md-0">
+                                <img src="./images/Teknofest_logo (1).png" alt="Teknofest Logo" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="achievement-content">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <h3>TEKNOFEST 2024 Winner</h3>
+                                <p>University Students Research Projects "Smart Cities and Transportation" Category 🥇</p>
+                                <p>Turkey's Biggest Technology Competition</p>
+                                <p class="achievement-year">2024</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <p class="text-center mt-3">
-                    You can visit my LinkedIn profile for my experiences and more information.
-                </p>  
+            </div>
         </div>
     </section>
-    <section id="education" class="section">
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <div class="linkedin-card">
+                    <div class="linkedin-icon">
+                        <img src="./images/linkedin.svg" alt="LinkedIn">
+                    </div>
+                    <h3 class="mb-4">Professional Experience</h3>
+                    <p class="experience-text">
+                        You can visit my LinkedIn profile for my experiences and more information.
+                    </p>
+                    <a href="https://www.linkedin.com/in/betulmumcu/" target="_blank" class="view-profile-btn">
+                        <i class="fab fa-linkedin"></i>
+                        View LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="section bg-light">
         <div class="container">
             <h2 class="section-title">Education</h2>
             <div class="education-list">
@@ -148,11 +197,12 @@
                         <div class="education-item equal-height-card">
                             <a href="https://www.giresun.edu.tr" target="_blank" rel="noopener noreferrer">
                                 <div class="education-logo">
-                                    <img src="https://muhendislik.giresun.edu.tr/Files/Images/logo_230x230.png" alt="University Logo">
+                                    <img src="./images/logo_GRÜ.png" alt="University Logo">
                                 </div>
                                 <div class="education-details">
                                     <h3 class="degree-title">Bachelor's Degree Computer Engineering</h3>
                                     <p class="institution">Giresun University</p>
+                                    <p class="ranked">Graduated 4th in Department</p>
                                     <p class="duration">October 2020 - July 2024</p>
                                 </div>
                             </a>
@@ -173,6 +223,20 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="education-item equal-height-card">
+                            <a href="https://www.ktu.edu.tr/" target="_blank" rel="noopener noreferrer">
+                                <div class="education-logo">
+                                    <img src="./images/ktu.png" alt="University Logo">
+                                </div>
+                                <div class="education-details">
+                                    <h3 class="degree-title">Master of Science in Computer Engineering with Thesis</h3>
+                                    <p class="institution">Karadeniz Technical University</p>
+                                    <p class="duration">September 2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,12 +244,15 @@
     <footer class="py-4">
         <div class="container text-center">
             <ul class="social-icons">
+                <li class="social-icon"><a href="#" class="logo"><span><</span>FA<span>></span></a></li>
                 <li class="social-icon"><a href="https://github.com/betuullm" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li class="social-icon"><a href="https://www.linkedin.com/in/betulmumcu" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-icon"><a href="https://www.linkedin.com/in/betulmumcu/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-icon"><a href="https://medium.com/@betuullm01" target="_blank"><i class="fa-brands fa-medium"></i></a></li>
             </ul>
-            <p class="text-white">© 2024 Coded by <a href="https://www.linkedin.com/in/ferhatakalan" target="_blank" class="text-dark text-decoration-none">Ferhat Akalan</a>. All rights reserved.</p>
+            <p class="text-white">© 2024 Coded by <a href="https://www.linkedin.com/in/ferhatakalan" target="_blank" class="text-white text-decoration-none">Ferhat Akalan</a>. All rights reserved.</p>
         </div>
     </footer>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">&#8593;</button>
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
