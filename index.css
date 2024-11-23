@@ -1,6 +1,6 @@
 /* CSS Variables */
 :root {
-    --primary-blue: #0063B2;
+    --primary-blue: #9f22d1;
     --dark-blue: #01204E;
     --text-dark: #333;
     --text-gray: #666;
@@ -54,7 +54,7 @@
   }
   
   .bracket {
-      color: #007bff;
+      color: #ab2bef;
   }
   
   header .nav-link {
@@ -66,7 +66,7 @@
   }
   
   header .nav-link:hover {
-      color: #007bff;
+      color: #ab2bef;
   }
   
   header .nav-link::after {
@@ -76,7 +76,7 @@
       height: 2px;
       bottom: 0;
       left: 50%;
-      background-color: #007bff;
+      background-color: #ab2bef;
       transition: all var(--transition);
       transform: translateX(-50%);
   }
@@ -93,7 +93,7 @@
   }
   
   .logo span {
-      color: #3b82f6;
+      color: #cc56f0;
   }
   
   /* Section styles */
@@ -247,7 +247,7 @@
       padding: 20px;
       background-color: var(--white);
       border-radius: 10px;
-      border-left: 5px solid #007bff;
+      border-left: 5px solid #921bd6;
   }
   
   .job-title {
@@ -292,7 +292,7 @@
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: #0c80ed;
+    background: #cc56f0;
     border-radius: 2px;
     }
 
